@@ -1,6 +1,6 @@
 <div align = "center" id = "top"> 
 	
-  <img width = "300" src = "https://github.com/LissandraRodrigues/read-teste/blob/main/logo.png" alt = "Investa" />
+  <img width = "300" src = "https://github.com/LissandraRodrigues/investa-hackathon-getnet/blob/master/logo.png" alt = "Investa" />
 
 </div>
 <br>
@@ -90,10 +90,10 @@ Antes de executar :checkered_flag:, você precisar ter o [Git](https://git-scm.c
 ```bash
 
 # Clone este projeto
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/NOME_DO_PROJETO
+$ git clone https://github.com/LissandraRodrigues/investa-hackathon-getnet
 
-# Acesse
-$ cd NOME DA PASTA
+# Acesse a pasta do projeto
+$ cd investa-hackathon-getnet
 
 # Instale as dependências
 $ npm install
