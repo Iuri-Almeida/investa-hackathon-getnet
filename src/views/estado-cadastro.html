@@ -1,0 +1,32 @@
+<html>
+    
+    <head>
+        
+        <link rel="stylesheet" href="assets/css/modal.css" />
+
+    </head>
+    
+    <body>
+                        
+    {% block modal %}
+
+        {# Se saved for igual a true, exibe a Página de Cadastro Concluído. #}
+        {% if saved %}
+
+            {%include "partials/concluido.html"%}}
+
+        {% endif %}
+
+        {# Se notSaved for igual a true, exibe a Página de Erro no Cadastro. #}
+        {% if notSaved %}
+
+            {%include "partials/error.html"%}}
+
+        {% endif %}
+
+    {% endblock modal %}
+        
+    </body>
+    
+    
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+
+<html lang ="pt-br">
+
+	<head>
+        
+        <title> Empreendedor </title>
+
+        <meta charset="utf-8" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        
+        <link rel="stylesheet" href="assets/css/main.css" />
+        
+        <link rel="stylesheet" href="assets/css/consultoria.css" />
+
+        <noscript>
+            
+            <link rel="stylesheet" href="assets/css/noscript.css" />
+        
+        </noscript>
+        
+        <link rel="icon" href="images/i-12.svg"/>
+	
+    </head>
+	
+    <body class="is-preload">
+
+        <!-- Início Wrapper -->
+        <div id="wrapper">
+
+            <!-- Início Header -->
+            <header id="header">
+                
+                
+                <h1>Bem vindo, empresário!</h1>
+
+            </header>
+            <!-- Fim Header -->
+
+            <!-- Início Main -->
+            <div id="main">
+
+                <!-- Início Introduction -->
+                <section id="intro" class="main">
+
+                    <h2>Investidores</h2>
+                    
+                    <h5>Potenciais colaboradores de sua empresa</h5>
+
+                    <div class="table-wrapper">
+
+                        <table>
+
+                            <thead>
+                                
+                                <tr>
+                                    
+                                    <th>Nome</th>
+                                    <th>E-mail</th>
+
+                                </tr>
+                            
+                            </thead>
+
+                            <tbody>
+
+                                {% if total > 0 %}
+
+                                    {% for investidor in investidores %}
+
+                                        <tr>
+
+                                            <td>{{ investidor.nome }}</td>
+                                            <td> {{ investidor.email }} </td>
+
+                                        </tr>
+
+                                    {% endfor %}
+
+                                {% endif %}
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </section>
+                <!-- Fim Introduction -->
+                
+                <!-- Início Consultoria --> 
+                <section id="intro" class="main">
+                                    
+                    <h2> Consultoria </h2>
+                    
+                    <h5> Seu plano: <b> OURO </b> </h5>
+                    
+                    <h5> Veja abaixo os consultores disponíveis para esta semana </h5>
+                
+                    <div class = "group-consultoria">
+                
+                        <div class = "consultoria">
+
+                            <img  src = "assets/css/images/homem-1.jpeg">
+                            
+                            <h3> José Santana </h3>
+                            
+                            <h5> Experiência: 4 anos na Sebrae </h5>
+                            
+                            <a href = "https://wa.me/5521900000000" target = "_blank" class = "button"> Entrar em contato </a>
+
+                        </div>
+
+                        <div class = "consultoria">
+
+                            <img src = "assets/css/images/mulher-1.jpeg">
+                            
+                            <h3> Jéssica Pereira </h3>
+                            
+                            <h5> Experiência: 7 anos na Sebrae </h5>
+                            
+                            <a href = "https://wa.me/5521900000000" target = "_blank" class = "button"> Entrar em contato </a>
+
+                        </div>
+
+                        <div class = "consultoria">
+
+                            <img src = "assets/css/images/homem-2.jpeg">
+                            
+                            <h3> Marcos Sobral </h3>
+                            
+                            <h5> Experiência: 2 anos na Sebrae </h5>
+                            
+                            <a href = "https://wa.me/5521900000000" target = "_blank" class = "button"> Entrar em contato </a>
+
+                        </div>
+
+                    </div>
+                    
+                </section>
+                <!-- Fim Consultoria -->
+                
+            </div>
+            <!-- Fim Main -->
+            
+            <!-- Início Footer -->
+            <footer id="footer">
+            
+            </footer>
+            <!-- Fim Footer -->
+            
+        </div>
+        <!-- Fim Wrapper -->
+
+    	<!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+	</body>
+        
+</html>

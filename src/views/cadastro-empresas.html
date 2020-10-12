@@ -1,0 +1,220 @@
+<!DOCTYPE HTML>
+
+<html>
+    
+	<head>
+		
+        <meta charset="utf-8" />
+		
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		
+        <link rel="stylesheet" href="assets/css/main.css" />
+        
+        <link rel="stylesheet" href="assets/css/planos.css" />
+
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        
+        <link rel="stylesheet" href="assets/css/cadastro.css" />
+        
+        <link rel="icon" href="images/i-12.svg"/>
+        
+        <script type="text/javascript">
+            
+            function concluido {
+                alert("Cadastro concluído com sucesso!")
+            }
+        
+        </script>
+        
+        <title> Empreendedor | Cadastre-se </title>
+        
+	</head>
+    
+	<body class="is-preload">
+
+        <!-- Início Wrapper -->
+        <div id="wrapper">
+
+            <!-- Início Header -->
+            <header id = "header">
+
+                <h1> Cadastre sua empresa </h1>
+
+            </header>
+            <!-- Fim Header -->
+
+            <!-- Início Main -->
+            <div id="main">
+                
+                <!-- Início Forms -->
+                <form action = "/save-empresa" method = "POST">
+
+                    <div class="form-group">
+
+                        <label> Nome da empresa</label>
+                        <input type="text" name = "nome_empresa" class="form-control">
+
+                        <label> Localização</label>
+                        <input type="text" name = "localizacao" class="form-control">
+
+                        <label> Descrição</label>
+                        <input type="text" name = "descricao" class="form-control">
+
+                        <label> Serviços prestados </label>
+                        <input type="text" name = "servicos" class="form-control">
+
+                        <label> Telefone </label>
+                        <input type="text" name = "numero" class="form-control">
+
+                        <label> E-mail </label>
+                        <input type="email" name = "email" class="form-control">
+
+                        <label> Foto da empresa (URL) </label>
+                        <input type="text" name = "url_empresa" class="form-control" placeholder="https://">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label> Nome do dono da empresa</label>
+                        <input type="text" name = "nome_dono" class="form-control">
+
+                        <label> Foto do dono (URL) </label>
+                        <input type="text" name = "url_dono" class="form-control" placeholder="https://">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label> Senha </label>
+                        <input type="password" name = "senha" class="form-control">
+
+                        <label> Confirmação da senha </label>
+                        <input type="password" name = "senha_confirmacao" class="form-control">
+
+                        <!-- Início Planos -->
+                        <section class = "preco" id = "planos">
+
+                            <header class="major">
+                            
+                                <h2> Planos </h2>
+                            
+                            </header>
+
+                            <div class="row">
+                                
+                                <!-- Início Cobre -->
+                                <div class = "preco-item preco-item-cobre col-4">
+                                
+                                    <div id = "cobre" class="form-check form-check-inline">
+                                        
+                                        <input class="form-check-input" type="radio" name="plano" id="plano-cobre" value="cobre">
+                                        
+                                        <label class="form-check-label" for="plano-cobre"></label>
+                                    
+                                    </div>
+
+                                    <h2> Cobre </h2>
+
+                                    <span> 2% <sup> dos investimentos </sup> </span>
+
+                                    <ul>
+
+                                        <li> Visibilidade padrão dentro da plataforma </li>
+                                        <li> Suporte 24h para tirar dúvidas </li>
+
+                                    </ul>
+
+                                </div>
+                                <!-- Fim Cobre -->
+                                
+                                <!-- Início Prata -->
+                                <div class = "preco-item preco-item-prata col-4">
+                                
+                                    <div id = "prata" class="form-check form-check-inline">
+                                        
+                                        <input class="form-check-input" type="radio" name="plano" id="plano-prata" value="prata">
+                                        
+                                        <label class="form-check-label" for="plano-prata"></label>
+                                    
+                                    </div>
+
+                                    <h2> Prata </h2>
+
+                                    <span> 3% <sup> dos investimentos </sup> </span>
+
+                                    <ul>
+
+                                        <li> Visibilidade dentro da plataforma impulsionada em 15% </li>
+                                        <li> Consultoria mensal com profissionais da Sebrae </li>
+                                        <li> Suporte 24h para tirar dúvidas </li>
+
+                                    </ul>
+
+                                </div>
+                                <!-- Fim Prata -->
+                                
+                                <!-- Início Ouro -->
+                                <div class = "preco-item preco-item-ouro col-4">
+                                
+                                    <div id = "ouro" class="form-check form-check-inline">
+                                        
+                                        <input class="form-check-input" type="radio" name="plano" id="plano-ouro" value="ouro">
+                                        
+                                        <label class="form-check-label" for="plano-ouro"></label>
+                                    
+                                    </div>
+
+                                    <h2> Ouro </h2>
+
+                                     <span> 5% <sup> dos investimentos </sup> </span>
+
+                                    <ul>
+
+                                        <li> Visibilidade dentro da plataforma impulsionada em 30% </li>
+                                        <li> Consultoria semanal com profissionais da Sebrae </li>
+                                        <li> Visualização exclusiva dos potenciais investidores </li>
+                                        <li> Acesso a gráfico de desempenho da empresa </li>
+                                        <li> Suporte 24h para tirar dúvidas </li>
+
+                                    </ul>
+
+                                </div>
+                                <!-- Fim Ouro -->
+                            
+                            </div>
+
+                        </section>
+                        <!-- Fim Planos -->
+
+                        <div class="envio">
+
+                            <button onclick="concluido" type="submit" class="button small">Enviar</button>
+
+                        </div>
+
+                    </div>
+
+                </form>
+                <!-- Fim Forms -->
+
+            </div>
+            <!-- Fim Main -->
+
+            <!-- Footer -->
+            <footer id="footer"> </footer>
+
+        </div>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+	</body>
+    
+</html>

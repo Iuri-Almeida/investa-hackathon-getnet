@@ -1,0 +1,27 @@
+#main {
+    padding: 5em;
+}
+
+ a {
+    text-decoration:none !important;
+     border: none
+}
+
+label {
+    margin-top:1em;
+}
+
+.envio {
+     width: 100px;
+    margin: 0 auto;
+}
+
+.button {
+    margin-top: 3em
+}
+
+body {
+    
+    width: 100vw;
+    
+}

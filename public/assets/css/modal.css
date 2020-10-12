@@ -1,0 +1,60 @@
+/* Autora: Luiza Lissandra R. Rosa */
+/* 11/10/2020 */
+
+#modal {
+
+    align-items: center;
+
+    background-color: #273E4B;
+
+    display: flex;
+
+    height: 100vh;
+
+    justify-content: center;
+
+    position: fixed;
+
+    transition: 400ms;
+
+    top: 0;
+
+    width: 100vw;
+
+}
+
+#modal.hide {
+
+    display: none;
+
+}
+
+#modal .content {
+
+    color: white;
+
+    width: 420px;
+
+}
+
+/* Página de conclusão. */
+#modal.point .content {
+
+    align-items: center;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+/* h1 da página de conclusão. */
+#modal.point h1 {
+
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 17pt;
+		font-weight: 300;
+		line-height: 1.65;
+
+}
+

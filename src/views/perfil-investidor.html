@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+
+<html>
+    
+	<head>
+        
+        <title> Investidor </title>
+
+        <meta charset="utf-8" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        
+        <link rel="stylesheet" href="assets/css/main.css" />
+        
+        <noscript>
+            
+            <link rel="stylesheet" href="assets/css/noscript.css" />
+        
+        </noscript>
+        
+        <link rel="icon" href="images/i-12.svg"/>
+	
+    </head>
+	
+    <body class="is-preload">
+
+        <!-- Início Wrapper -->
+        <div id="wrapper">
+
+            <!-- Início Header -->
+            <header id="header">
+                            
+                <h1>Bem vindo, investidor!</h1>
+
+            </header>
+            <!-- Fim Header -->
+
+            <!-- Início Main -->
+            <div id="main">
+
+                <!-- Início Introduction -->
+                <section id="intro" class="main">
+
+                    <h2>Empresas</h2>
+
+                    <h5>Empresas ideais para o seu perfil de investimento</h5>
+
+                    <div class="table-wrapper">
+
+                        <table>
+
+                            <thead>
+                                
+                                <tr>
+
+                                    <th>Nome</th>
+                                    <th>Descrição</th>
+                                    <th>Serviços prestados</th>
+                                    <th>Localização</th>
+
+                                </tr>
+
+                            </thead>
+
+                            <tbody>
+
+                                {% if total > 0 %}
+
+                                    {% for empresa in empresas %}
+
+                                        <tr>
+                                            
+                                            <td><a href = "empresa-selecionada"> {{ empresa.nome_empresa }} </a></td>
+                                            <td> {{ empresa.descricao }} </td>
+                                            <td> {{ empresa.servicos }} </td>
+                                            <td> {{ empresa.localizacao }}</td>
+                                            
+                                            <td> 
+                                                
+                                                <button class = "button small" style = "margin-bottom: 10px;" > <a href = "https://wa.me/5521900000000"  target = "_blank"> Entrar em contato </a> </button>
+
+                                                <button class = "button small"> Investir </button>
+                                                
+                                            </td>
+                                            
+                                        </tr>
+
+                                    {% endfor %}
+
+                                {% endif %}
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </section>
+                <!-- Fim Introduction -->
+
+            </div>
+            <!-- Fim Main -->
+            
+            <!-- Início Footer -->
+            <footer id="footer">
+            
+            </footer>
+            <!-- Fim Footer -->
+
+        </div>
+        <!-- Fim Wrapper -->
+
+	    <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+	</body>
+    
+</html>

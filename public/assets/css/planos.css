@@ -1,0 +1,192 @@
+
+/* PREÇOS */
+
+#planos {
+
+    margin-top: 50px;
+    border-radius: 2%;
+
+}
+
+#ouro, #prata, #cobre {
+
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    margin-left: 15%;
+
+}
+
+.preco {
+
+    background: #f7f7f7;
+    padding: 60px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-end;
+
+}
+
+.preco-item {
+
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 35px;
+
+    /* Colocar min-width próximo a 300px, pois são cada vez mais raros celulares com telas menores que isso. */
+    min-width: 260px;
+
+}
+
+.preco-item-cobre {
+
+    border: 1.5px solid #b87333;
+
+}
+
+.preco-item-cobre span {
+
+    border-top: 1.5px solid #b87333;
+    border-bottom: 1.5px solid #b87333;
+
+}
+
+.preco-item-prata {
+
+    border: 1.5px solid #c0c0c0;
+
+}
+
+.preco-item-prata span {
+    
+    border-top: 1.5px solid #c0c0c0;
+    border-bottom: 1.5px solid #c0c0c0;
+
+}
+
+.preco-item-ouro {
+
+    border: 1.5px solid #ffd700;
+
+}
+
+.preco-item-ouro span {
+
+    border-top: 1.5px solid #ffd700;
+    border-bottom: 1.5px solid #ffd700;
+
+}
+
+.preco-item h2 {
+
+    font-size: 3em;
+    color: #a4a4a4;
+    text-align: center;
+
+    margin-top: 20px;
+
+}
+
+.preco-item span {
+
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 10px 0px 5px 0px;
+
+}
+
+.preco-item sup {
+
+    /* rem -> é relativo a raíz (16px). */
+    font-size: 1.5rem;
+
+}
+
+.preco-item ul {
+
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 0;
+    font-size: 1.25em;
+    font-style: italic;
+    color: #7c7c7c;
+
+}
+
+.preco-item li {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.preco-item li::before {
+
+    content: "•";
+    padding: 8px;
+    margin-right: 8px;
+
+}
+
+.preco-item a {
+
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid;
+    border-radius: 8px;
+    color: #222222;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.25em;
+    padding: 15px 0px;
+    text-align: center;
+
+}
+
+.preco-item a:hover {
+
+    transform: scale(1.2);
+
+}
+
+
+/* Media Query. A partir de telas menores que 800px. */
+@media (max-width: 800px) {
+
+    .preco {
+
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    /* Procura o elemento filho de preco-item que está inserido na 3ª posição no HTML. */
+    .preco .preco-item:nth-child(3) {
+
+        order: -2;
+
+    }
+
+    .preco .preco-item:nth-child(2) {
+
+        order: -1;
+
+    }
+
+}
+
+
+
+
+
+

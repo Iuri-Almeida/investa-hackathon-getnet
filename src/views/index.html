@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+
+<html>
+    
+	<head>
+        
+        <title> Investa </title>
+        
+        <meta charset="utf-8" />
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        
+        <link rel="stylesheet" href="assets/css/main.css" />
+
+        <link rel="icon" href="images/i-12.svg"/>
+        
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        
+	</head>
+
+	<body class="is-preload">
+        
+        <!-- Início Wrapper -->
+        <div id="wrapper">
+
+            <!-- Início Header -->
+            <header id="header" class="alt">
+                
+                <!-- Logo -->
+                <span class="logo">
+
+                    <img width="300px" src="images/logo-11.svg" alt="" />
+
+                </span>
+                
+                <!-- Slogan -->
+                <p>Capacita e conecta em um só lugar!</p>
+                
+                <!-- Início Estatísticas -->
+                <ul class="statistics">
+
+                    <li class="style1">
+                        
+                        <i class="icon solid far fa-building fa-3x"></i>
+
+                        <strong>5,120</strong> Empresas
+
+                    </li>
+
+                    <li class="style2">
+                        
+                        <i class="fas fa-user-tie fa-3x"></i>
+
+                        <strong>5,192</strong> Investidores
+
+                    </li>
+
+                    <li class="style3">
+                        
+                        <i class="icon solid fas fa-handshake"></i>
+
+                        <strong>10,048</strong> Matches realizados
+	
+                    </li>
+
+                </ul>
+                <!-- Fim Estatísticas -->
+                
+                <!-- Conteúdos Interessantes -->
+                <p class="content">
+                    Investa acolhe o empresário inexperiente e oferece consultorias especializadas de maneira direta e que desenvolvem a autonomia de tal, para que proporcione uma combinação personalizada entre empreendedores e investidores de forma justa, pois impulsiona o desenvolvimento das empresas inicialmente menos preparadas.  
+                </p>
+                
+                <!-- Início Rodapé do header -->
+                <footer class="major">
+                    
+                    <h5>Já tem uma conta?</h5>
+                        
+                    <ul class="actions special">    
+                        
+                        <li><a href="login-investidor" class="button">Investidor</a></li>
+                            
+                        <li><a href="login-empresa" class="button">Empreendedor</a></li>
+
+                    </ul>
+
+                </footer>
+                <!-- Fim Rodapé do header -->
+            
+            </header>
+            <!-- Fim Header -->
+
+            <!-- Início Nav -->
+            <nav id="nav">
+                
+                <ul>
+                    
+                    <li><a href="#intro" class="active">Empresas</a></li>
+                    
+                    <li><a href="#first">Cadastro</a></li>
+                
+                </ul>
+                
+            </nav>
+            <!-- Fim Nav -->
+
+            <!-- Início Main -->
+            <div id="main">
+
+                <!-- Início Empresas -->
+                <section id="intro" class="main special">
+                    
+                    <header class="major">
+                        
+                        <h2>Empresas</h2>
+                    
+                    </header>
+                    
+                    <h5>Veja algumas das empresas que estão a procura de investimentos</h5>
+
+                    <div class="table-wrapper lista-empresas">
+
+                        <table>
+
+                            <tbody>
+
+                                {% if total > 0 %}
+                                                                    
+                                {% for empresa in empresas %}
+                                            
+                                <tr>
+                                    
+                                    <td><a href="#">{{ empresa.nome_empresa }}</a></td>
+                                    
+                                    <td> {{ empresa.descricao }}</td>
+                                
+                                </tr>
+
+                                {% endfor %}
+                                    
+                                {% endif %}
+
+                            </tbody>
+
+                        </table>
+               
+                    </div>
+
+                </section>
+                <!-- Fim Empresas -->
+
+                <!-- Início Cadastro -->
+                <section id="first" class="main special">
+                    
+                    <header class="major">
+                        
+                        <h2>Cadastro</h2>
+                    
+                    </header>
+
+                    <ul class="features">
+
+                        <li>
+
+                            <span class="icon solid major style1 fas fa-user-tie"></span>
+
+                            <h3>Investidor</h3>
+
+                            <p> Descubra empresas que têm o seu perfil de investimento e negocie com empreendedores preparados. </p>
+                        
+                            <a href="cadastro-investidores" class="button">Sou Investidor</a>
+                        
+                        </li>
+           
+                        <li>
+                            
+                            <span class="icon solid major style3 far fa-building"></span>
+                            
+                            <h3>Empreendedor</h3>
+                            
+                            <p> Capacite-se, exiba seu empreendimento e encontre o investidor perfeito para o seu negócio em um só lugar. </p>
+                            
+                            <a href="cadastro-empresas" class="button"> Sou Empreendedor </a>
+                        
+                        </li>
+                    
+                    </ul>       
+                
+                </section>
+                <!-- Fim Cadastro -->
+
+                <!-- Início Footer -->
+                <footer id="footer">
+                
+                </footer>
+                <!-- Fim Footer -->
+
+            </div>
+            <!-- Fim Main -->
+
+        </div>
+        <!-- Fim Wrapper -->
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+	</body>
+
+</html>
