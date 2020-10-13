@@ -36,8 +36,8 @@
 ## :sparkles: Características ##
 
 :heavy_check_mark: Tem potencial de se tornar uma ferramenta indispensável na vida do micro e pequeno empreendedor;\
-:heavy_check_mark: Faz a conexão entre micro e pequenos empreendedores e investidores de modo simples e fácil;\
-:heavy_check_mark: Na ideação, tivemos como inspiração o sistema da Trybe, em que os alunos pagam apenas após terminar o curso e conseguirem um emprego, com isso, no Investa, o micro e pequeno empreendedor paga apenas após conseguir investimentos.
+:heavy_check_mark: Na ideação, tivemos como inspiração o sistema da <a href = "https://www.betrybe.com/">Trybe</a>, em que os alunos pagam apenas quando conseguirem um emprego. No Investa, o micro e pequeno empreendedor paga apenas quando conseguir investimentos;\
+:heavy_check_mark: Faz a conexão entre micro e pequenos empreendedores e investidores de modo simples e fácil.
 
 </div>
 
