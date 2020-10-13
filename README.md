@@ -55,7 +55,7 @@
 
 ## :bar_chart: Modelo de Negócio (Canvas) ##
 
-FOTO
+<img align = "center" src = "https://github.com/LissandraRodrigues/investa-hackathon-getnet/blob/master/canvas.jpeg" />
 
 </div>
 
