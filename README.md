@@ -24,8 +24,8 @@
 ## :dart: Descrição ##
 
 <p align = "center">
-    Aplicação web desenvolvida durante o <a href = "https://www.hackathongetnet.com.br/"> Hackathon Getnet </a> que teve como apoiador
-    o Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (<a href = "https://www.sebrae.com.br/sites/PortalSebrae">Sebrae</a>). Investa 
+    Aplicação web desenvolvida durante o <a href = target = "_blank" "https://www.hackathongetnet.com.br/"> Hackathon Getnet </a> que teve como apoiador
+    o Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (<a target = "_blank" href = "https://www.sebrae.com.br/sites/PortalSebrae">Sebrae</a>). Investa 
     tem como objetivo capacitar micro e pequenos empreendedores e os conectar com investidores de maneira ágil e fácil. 
 </p>
 
@@ -36,7 +36,7 @@
 ## :sparkles: Características ##
 
 :heavy_check_mark: Tem potencial de se tornar uma ferramenta indispensável na vida do micro e pequeno empreendedor;\
-:heavy_check_mark: Na ideação, tivemos como inspiração o sistema da <a href = "https://www.betrybe.com/">Trybe</a>, em que os alunos pagam apenas quando conseguem um emprego. No Investa, o micro e pequeno empreendedor paga apenas quando conseguir investimentos;\
+:heavy_check_mark: Na ideação, tivemos como inspiração o sistema da <a target = "_blank" href = "https://www.betrybe.com/">Trybe</a>, em que os alunos pagam apenas quando conseguem um emprego. No Investa, o micro e pequeno empreendedor paga apenas quando conseguir investimentos;\
 :heavy_check_mark: Faz a conexão entre micro e pequenos empreendedores e investidores de modo simples e fácil.
 
 </div>
@@ -45,9 +45,9 @@
 
 ## :movie_camera: Vídeos ##
 
-:thought_balloon:  - <a href = "https://www.youtube.com/watch?v=Y_6F8WlpzN0&feature=youtu.be"> Pitch </a>
+:thought_balloon:  - <a target = "_blank" href = "https://www.youtube.com/watch?v=Y_6F8WlpzN0&feature=youtu.be"> Pitch </a>
 
-:computer:  - <a href = "https://www.youtube.com/watch?v=qpeEb0L5N9M&feature=youtu.be"> Demo </a>
+:computer:  - <a target = "_blank" href = "https://www.youtube.com/watch?v=qpeEb0L5N9M&feature=youtu.be"> Demo </a>
 
 </div>
 
@@ -110,7 +110,7 @@ $ npm start
 
 ## :bulb: Roadmap ##
 
-- [ ] Integração com <a href = "https://www.bcb.gov.br/estabilidadefinanceira/pagamentosinstantaneos">PIX</a> para as transações dos investimentos;
+- [ ] Integração com <a target = "_blank" href = "https://www.bcb.gov.br/estabilidadefinanceira/pagamentosinstantaneos">PIX</a> para as transações dos investimentos;
 - [ ] Opção de o investidor poder comparar o desempenho de duas ou mais empresas por meio de gráfico;
 - [ ] Opção de a empresa poder visualizar, por meio de gráficos, as interações que os investidores tiveram com seu perfil;
 - [ ] Exibição em gráficos do desempenho das empresas para os investidores poderem analisá-las com mais detalhes;
@@ -124,9 +124,9 @@ $ npm start
 	
 ## :pushpin: Créditos ##
 
-- <a href = "https://html5up.net/"> Template HTML5 </a>
+- <a target = "_blank" href = "https://html5up.net/"> Template HTML5 </a>
 
-- <a href = "https://www.nappy.co/"> Imagens de pessoas negras </a>
+- <a target = "_blank" href = "https://www.nappy.co/"> Imagens de pessoas negras </a>
 	
 </div>
 
@@ -134,11 +134,11 @@ $ npm start
 
 <div id = "time">
 
-* <a href = "https://www.linkedin.com/in/luiza-lissandra/"> Luiza Lissandra </a> - Graduanda de Engenharia Eletrônica e de Computação na UFRJ;
+* <a target = "_blank" href = "https://www.linkedin.com/in/luiza-lissandra/"> Luiza Lissandra </a> - Graduanda de Engenharia Eletrônica e de Computação na UFRJ;
 
-* <a href = "https://www.linkedin.com/in/isabelazamith/"> Isabela Zamith </a> - Graduanda de Design de Mídia Digital na PUC-Rio;
+* <a target = "_blank" href = "https://www.linkedin.com/in/isabelazamith/"> Isabela Zamith </a> - Graduanda de Design de Mídia Digital na PUC-Rio;
 
-* <a href = "https://www.linkedin.com/in/iurilopesalmeida/"> Iuri Almeida </a> - Graduando de Engenharia Agrícola e Ambiental na UFF.
+* <a target = "_blank" href = "https://www.linkedin.com/in/iurilopesalmeida/"> Iuri Almeida </a> - Graduando de Engenharia Agrícola e Ambiental na UFF.
 
 </div>
 
