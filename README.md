@@ -45,9 +45,9 @@
 
 ## :movie_camera: Vídeos ##
 
-:thought_balloon:  - <a href = ""> Pitch </a>
+:thought_balloon:  - <a href = "https://www.youtube.com/watch?v=Y_6F8WlpzN0&feature=youtu.be"> Pitch </a>
 
-:computer:  - <a href = ""> Demo </a>
+:computer:  - <a href = "https://www.youtube.com/watch?v=qpeEb0L5N9M&feature=youtu.be"> Demo </a>
 
 </div>
 
